@@ -75,15 +75,12 @@ class _HomeSecreenState extends State<HomeSecreen> {
                           backgroundColor: Color(0xff323232),
                           child: RPadding(
                             padding: const EdgeInsets.all(4.0),
-                            child: RSizedBox(width: 10,
-                              height: 24,
-                              child: Text('${StorageService.getListId()!.length}',
-                                  style: TextStyle(
-                                      color: Color(0xffFBFBFB),
-                                      fontSize: 22.sp,
-                                      fontWeight: FontWeight.w400,
-                                      fontFamily: 'GemunuLibre-Light')),
-                            ),
+                            child: Text('${StorageService.getListId()!.length}',
+                                style: TextStyle(
+                                    color: Color(0xffFBFBFB),
+                                    fontSize: 22.sp,
+                                    fontWeight: FontWeight.w400,
+                                    fontFamily: 'GemunuLibre-Light')),
                           ),
                         ),
                       ))
